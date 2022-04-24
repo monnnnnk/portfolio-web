@@ -1,0 +1,16 @@
+.scrollSection {
+  padding-top: 50vh;
+}
+
+#scrollSection0 h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.mainMessage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 3em;
+  font-size: 2.5rem;
+}
