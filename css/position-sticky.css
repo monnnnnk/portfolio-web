@@ -1,0 +1,14 @@
+.stickyElem {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#show-scene-0 #scrollSection0 .stickyElem,
+#show-scene-1 #scrollSection1 .stickyElem,
+#show-scene-2 #scrollSection2 .stickyElem,
+#show-scene-3 #scrollSection3 .stickyElem {
+  display: block;
+}

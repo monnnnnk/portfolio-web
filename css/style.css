@@ -6,6 +6,7 @@
 /* component */
 @import "/css/menu.css";
 @import "/css/section.css";
+@import "/css/position-sticky.css";
 
 html {
   font-family: "Noto Sans KR", sans-serif;

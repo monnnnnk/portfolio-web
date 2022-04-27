@@ -11,6 +11,97 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   height: 3em;
   font-size: 2.5rem;
+  margin: 5px 0;
 }
+
+.mainMessage p {
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.description {
+  max-width: 1000px;
+  padding: 0 1rem;
+  font-size: 1.2em;
+  color: #888;
+}
+.description strong {
+  float: left;
+  margin-right: 0.2em;
+  font-size: 3rem;
+  color: rgb(29, 29, 31);
+}
+
+.mainMessage small {
+  display: block;
+  margin-bottom: 0.5em;
+  font-size: 1.2rem;
+}
+
+.scrollSection2 .mainMessage {
+  font-size: 3.5rem;
+}
+
+.descMessage {
+  width: 50%;
+  font-weight: bold;
+}
+
+.pin {
+  width: 1px;
+  height: 100px;
+  background-color: rgb(29, 29, 31);
+}
+
+.midMessage {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 2rem;
+  padding: 0 1rem;
+  color: #888;
+}
+.midMessage strong {
+  color: rgb(29, 29, 31);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7rem;
+  background: rgb(29, 29, 31);
+  color: white;
+}
+
+@media (min-width: 1024px) {
+  #scrollSection0 h1 {
+    font-size: 9vw;
+    text-align: center;
+  }
+  .mainMessage {
+    font-size: 4vw;
+  }
+  .description {
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+  .description strong {
+    font-size: 6rem;
+  }
+  #scrollSection2 .mainMessage {
+    font-size: 6vw;
+  }
+  .midMessage {
+    font-size: 4vw;
+  }
+  .mainMessage small {
+    font-size: 1.5vw;
+  }
+  .descMessage {
+    width: 20%;
+  }
+} ;
